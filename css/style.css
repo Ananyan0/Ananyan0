@@ -59,3 +59,43 @@ label{
     position: absolute;
     bottom: 50px;
 }
+
+
+.col2 h3{
+    color: #ECA549;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+}
+
+.col2 h1{
+    color: #505A61;
+    font-family: Raleway, sans-serif;
+    font-size: 3.75em;
+    font-weight: 900 !important;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.col2 p{
+    color: #808b90;
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+}
+
+.s{
+    width: 156px;
+    height: 145px;
+    background: gray;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
