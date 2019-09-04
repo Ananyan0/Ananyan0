@@ -1,93 +1,124 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-
-form{
-    background-color: #eca549;
-    padding: 21px 30px 35px 30px;
-    border-radius: 7px;
-}
-
-form .title{
-}
-
-form .title h3{
-    font-size: 1.875em;
-    font-weight: 900;
-    font-style: italic;
-    line-height: 1.1;
-    color: #fff;
-}
-
-form .title h5{
-    font: 15px Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-style: normal;
-    color: #fff;
-}
-
-form input{
-    padding: 7px 15px !important;
-    border-radius: 7px !important;
-    margin: 16px 0 16px 0;
-    background-color: #E9BD6F !important;
-    border: none !important;
-    outline: none;
-}
-
-form input::placeholder{
-    color: #fff !important;
-    font-weight: bold;
-}
-
-form .btn{
-    width: 95%;
-    text-transform: uppercase;
-    padding: 15px;
-    color: #505a61;
-    line-height: normal;
-    font-size: 1.063em;
-    font-weight: bold;
-}
-
-.m{
-    margin: 15px 0 0 0;
-}
-
-label{
-    color: #815614; font-size: 0.875em;
-    position: absolute;
-    bottom: 50px;
-}
-
-
 .col2 h3{
-    color: #ECA549;
+    color: #eca549;
+    font-size: 1.124em;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.2px;
+    line-height: 1.5em;
     font-family: Raleway, sans-serif;
-    font-size: 20px;
 }
 
 .col2 h1{
-    color: #505A61;
-    font-family: Raleway, sans-serif;
-    font-size: 3.75em;
-    font-weight: 900 !important;
-    font-style: italic;
     text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Raleway,sans-serif;
+    color: #505A61;
+    font-size: 40px;
 }
 
 .col2 p{
-    color: #808b90;
-    font-size: 14px;
-    font-family: Raleway, sans-serif;
+    color: #808B90;
+    font:  14px Raleway,sans-serif;
+    line-height: 20px;
 }
 
-.s{
-    width: 156px;
-    height: 145px;
-    background: gray;
-    align-content: center;
+.btn-hover{
+    margin-top: 25px;
+    color: #fff;
+    background: #eca549;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 20px 60px 21px;
+    text-transform: uppercase;
+    font: 15px Raleway,sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+.btn-hover:hover{
+    box-shadow: inset 400px 0 0 0 #8eb2c7;
+}
+
+.teacher{
+    background-image: url(/img/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+}
+
+.teacher h3{
+    font: 20px Raleway, sans-serif;
+    color: #eca549;
+}
+
+.teacher h1{
+    color: #8eb2c7;
+    font: 52px Raleway,sans-serif;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+.teacher h1 span{
+    color: #505A61;
+}
+
+.teacher p{
+    color: #808B90;
+    font: 14px Raleway,sans-serif;
+    line-height: inherit;
+    margin-top: 22px;
+}
+
+.cards{
+    padding: 130px;
+}
+
+.cards h3{
+    font: 25px Raleway, sans-serif;
+    color: #eca549;
+}
+
+.cards h1{
+    color: #505A61;
+    font: 52px Raleway,sans-serif;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+.card h3{
+    color: #fff;
+    text-transform: uppercase;
+    font: bolder 26px Raleway,sans-serif;
+}
+
+.card-title{
+    font: bolder 52px Raleway,sans-serif;
+    color: #8eb2c7;
+    margin-top: 30px;
+}
+
+.card-text{
+    margin-top: 28px;
+    margin-bottom: 35px;
+    color: #808B90;
+    font: 14px Raleway,sans-serif;
+    line-height: inherit;
+}
+
+.card-btn{
+    text-transform: uppercase;
+    font: 14px Raleway,sans-serif;
+    font-weight: bolder;
+    padding: 15px 45px;
+    display: block;
+    margin: auto;
+}
+
+
+
 
 
 
