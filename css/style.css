@@ -77,8 +77,8 @@
 }
 
 .cards h3{
-    font: 25px Raleway, sans-serif;
-    color: #eca549;
+    font: 25px Raleway, sans-serif !important;
+    color: #eca549 !important;
 }
 
 .cards h1{
@@ -87,11 +87,15 @@
     font-weight: bolder;
     margin-top: 3px;
 }
+.card{
+    border: none;
+}
 
 .card h3{
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
-    font: bolder 26px Raleway,sans-serif;
+    font: bolder 26px Raleway,sans-serif !important;
+    
 }
 
 .card-title{
