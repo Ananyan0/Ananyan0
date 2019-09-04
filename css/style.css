@@ -88,14 +88,15 @@
     margin-top: 3px;
 }
 .card{
-    border: none;
+    border: none !important;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .card h3{
     color: #fff !important;
     text-transform: uppercase;
     font: bolder 26px Raleway,sans-serif !important;
-    
+    transform: translate(38%, 100%)
 }
 
 .card-title{
