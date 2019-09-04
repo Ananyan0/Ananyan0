@@ -21,7 +21,7 @@
 .col2 p{
     color: #808B90;
     font:  14px Raleway,sans-serif;
-    line-height: 20px;
+    line-height: inherit;
 }
 
 .btn-hover{
