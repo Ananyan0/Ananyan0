@@ -19,9 +19,10 @@ p{
 }
 
 .info-box{
+    border-radius: 7px;
     background-color: #94B0C7;
     color: #fff;
-    padding: 35px 15px 25px 15px;
+    padding: 10px 0 7px 0;
 }
 
 
