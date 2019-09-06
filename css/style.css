@@ -125,7 +125,15 @@
 
 
 
+@media only screen and (max-width: 600px){
+    .card{
+        margin: 30px;
+    }
 
+    .col2 h3{
+        margin-top: 20px;
+    }
+}
 
 
 
