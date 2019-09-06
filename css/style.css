@@ -46,12 +46,15 @@
     background-image: url(/img/bg_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px;
 }
 
 .teacher h3{
     font: 20px Raleway, sans-serif;
     color: #eca549;
+}
+
+.teacher_title{
+    margin: 110px auto;
 }
 
 .teacher h1{
